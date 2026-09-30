@@ -3,14 +3,14 @@
 Aplicação React de página única para cadastrar departamentos (Nome + Sigla) e
 visualizar a lista sendo atualizada dinamicamente, sem reload da página.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - React + Vite
 - JSON Server (backend simulado)
 - Bootstrap 5
 - Fetch API + Hooks (`useState`, `useEffect`, custom `useFetch`)
 
-## ⚙️ Como rodar
+## Como rodar
 
 ```bash
 # 1. Instale as dependências
@@ -26,7 +26,7 @@ npm run dev
 Acesse `http://localhost:5173`.
 API disponível em `http://localhost:3000/departments`.
 
-## 🧱 Estrutura
+## Estrutura
 
 ```
 src/
@@ -40,7 +40,7 @@ src/
 └── index.css
 ```
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - [x] GET inicial com `useEffect` (deps `[]`) e estado de `loading`
 - [x] Formulário controlado com validação de sigla (2 a 5 letras)
